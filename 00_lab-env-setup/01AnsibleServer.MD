@@ -22,14 +22,14 @@
                            
  ### Setup Hostname
     
-- hostname command
+- Hostname command
       
    ```sh
 		sudo su - 
 		hostname ans-control-node
    ``` 
     
-- edit /etc/hostname
+- Edit /etc/hostname
     
   ```
         vi /etc/hostname
@@ -37,3 +37,9 @@
         
         sudo su -
   ```
+
+ ### Create ansibleadminuser
+ 
+ ```
+ something
+ ```
