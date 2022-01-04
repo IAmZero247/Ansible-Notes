@@ -9,13 +9,7 @@
  7. Install Ansible
  
  
- By following this repository you can able to setup a DevOps CI/CD Pipeline using
-- git
-- Jenkins
-- Maven
-- Ansible
-- Docker &
-- Kubernetes
+ 
  
  ### Setup EC2 
     
@@ -30,16 +24,16 @@
     
 - hostname command
       
-		```
+   ```sh
 		sudo su - 
 		hostname ans-control-node
-		``` 
+   ``` 
     
--  edit /etc/hostname
+- edit /etc/hostname
     
-		```
+  ```
         vi /etc/hostname
         ans-control-node
         
         sudo su -
-        ```
+  ```
