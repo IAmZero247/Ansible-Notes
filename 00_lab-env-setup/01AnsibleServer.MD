@@ -11,10 +11,10 @@
  
  ## Setup EC2 
     
-    ```
-    1. use amazon linux ami
-    2. new security group -> ansible-sg
-           open port  22
-                      80
-                      8080
-    ```
+      ```sh
+         1. use amazon linux ami
+         2. new security group -> ansible-sg
+                open port  22
+                           80
+                           8080
+      ```
