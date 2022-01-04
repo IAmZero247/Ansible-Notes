@@ -17,4 +17,17 @@
                 open port  22
                            80
                            8080
-      
+                           
+ ## Setup Hostname
+    
+    1. `sudo su -` 
+       `hostname ans-control-node`
+    
+    2.  edit /etc/hostname
+    
+        ```
+        vi /etc/hostname
+        ans-control-node
+        
+        sudo su -
+        ```
