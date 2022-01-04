@@ -20,10 +20,14 @@
                            
  ## Setup Hostname
     
-      1. `sudo su -` 
-       `hostname ans-control-node`
+    1. hostname command
+      
+      ```
+        sudo su - 
+       hostname ans-control-node
+      ``` 
     
-      2.  edit /etc/hostname
+    2.  edit /etc/hostname
     
         ```
         vi /etc/hostname
