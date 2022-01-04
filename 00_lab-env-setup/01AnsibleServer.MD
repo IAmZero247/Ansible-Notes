@@ -9,25 +9,33 @@
  7. Install Ansible
  
  
+ By following this repository you can able to setup a DevOps CI/CD Pipeline using
+- git
+- Jenkins
+- Maven
+- Ansible
+- Docker &
+- Kubernetes
+ 
  ### Setup EC2 
     
       
-         - use amazon linux ami
-         - new security group -> ansible-sg
+- use amazon linux ami
+- new security group -> ansible-sg
                 open port  22
                            80
                            8080
                            
  ### Setup Hostname
     
-		- hostname command
+- hostname command
       
 		```
 		sudo su - 
 		hostname ans-control-node
 		``` 
     
-		-  edit /etc/hostname
+-  edit /etc/hostname
     
 		```
         vi /etc/hostname
