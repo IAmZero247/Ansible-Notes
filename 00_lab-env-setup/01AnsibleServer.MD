@@ -2,7 +2,7 @@
 
  1. Setup EC2 instance
  2. Setup Hostname
- 3. Create ansibleadminuser
+ 3. Create ansibleadmin user
  4. Add user to sudoens file
  5. Generate ssh key
  6. Enable password based login
@@ -38,8 +38,21 @@
         sudo su -
   ```
 
- ### Create ansibleadminuser
+ ### Create ansibleadmin user
  
- ```
- something
- ```
+   ```sh
+		useradd ansibleadmin
+		passwd  ansible12345
+   ```
+ 
+ ### Add user to sudoens file
+   
+   ```sh
+      
+	   visudo 
+	   
+	   add under root
+	   
+	   `ansibleadmin ALL=(ALL)	NOPASSWD:ALL `
+   
+   ```
