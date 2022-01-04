@@ -9,25 +9,25 @@
  7. Install Ansible
  
  
- ## Setup EC2 
+ ### Setup EC2 
     
       
-         1. use amazon linux ami
-         2. new security group -> ansible-sg
+         - use amazon linux ami
+         - new security group -> ansible-sg
                 open port  22
                            80
                            8080
                            
- ## Setup Hostname
+ ### Setup Hostname
     
-		1. hostname command
+		- hostname command
       
 		```
 		sudo su - 
 		hostname ans-control-node
 		``` 
     
-		2.  edit /etc/hostname
+		-  edit /etc/hostname
     
 		```
         vi /etc/hostname
