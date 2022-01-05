@@ -129,4 +129,4 @@
    touch hosts
    ```
    
-   add
+    - add ip of managed nodes in hosts file
