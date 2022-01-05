@@ -85,11 +85,14 @@
      ip addr
    ```
    
-  2. copy sshkey from control node to managed node [ aa]
+  2. copy sshkey from control node to managed node [ssh-copy-id host]
 
   ```
    sudo su - ansadmin
    ssh-copy-id ip_address_of_managed_node
+   
+   verify from control node
+   ssh ip_address_of_managed_node
   ```
    
  
