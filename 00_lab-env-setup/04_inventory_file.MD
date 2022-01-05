@@ -18,6 +18,6 @@
   
   ### Host Info 
   
-    - Default location >> /etc/ansible/hosts file 
-    - Using -i option >> ansible -i my_hosts
+    -  Default location >> /etc/ansible/hosts file 
+    -  Using -i option >> ansible -i my_hosts
 
