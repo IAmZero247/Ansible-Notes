@@ -25,6 +25,6 @@
       
       - inventory = /etc/ansible/hosts
      
-      - >> `ansible all -m ping  -i /etc/ansadmin/hosts`
+      - `>> ansible all -m ping  -i /etc/ansadmin/hosts`
         
 
