@@ -101,12 +101,12 @@
        yum install python-pip
    ```
    
-   1. Install ansible using pip check for version
+   2. Install ansible using pip check for version
      
-       ```sh
+   ```sh
      
-        pip install ansible
-        ansible --version
+      pip install ansible
+      ansible --version
      
-       ```
+    ```
     
