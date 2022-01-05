@@ -27,5 +27,20 @@
            ansible all -m stat -a "path=/etc/hosts"
          ```
       -  yum >>
+         ```
+           ansible all -m yum -a "name=git" -b
+           ansible all -m yum -a "name=tree" -b
+         ```
       -  user >>
+  
+         ```
+           ansible all -m user  -a "name=ruby" -b
+           ansible all -m user -a
+           
+           verify in managed nodes:
+           cat /etc/passwd"
+         ```
       -  setup >>
+         ```
+          ansible all -m setup
+         ```
