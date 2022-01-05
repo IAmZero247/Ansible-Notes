@@ -47,7 +47,7 @@
  
  ### Add user to sudoens file
    
-     ```sh
+   ```sh
       
 	   visudo 
 	   
@@ -55,11 +55,11 @@
 	   
 	   `ansadmin ALL=(ALL)	NOPASSWD:ALL `
    
-     ```
+   ```
    
  ### Generate ssh key
    
-      ```
+   ```sh
      
      	sudo su - ansadmin 
 	
@@ -73,13 +73,12 @@
 	>> 1. id_rsa
 	>> 2. id_rsa.pub
 	
-	
-	
-      ```
+    ```
+    
 ### Enable password based login   
 
 
-     ```
+  ```
       switch to root 
     
       sudo su - 
@@ -91,7 +90,7 @@
       PasswordAuthentication yes
     
       service sshd restart | reboot
-     ```
+   ```
  
  ### Install Ansible
  
