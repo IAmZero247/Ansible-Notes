@@ -2,7 +2,7 @@
 
   - https://docs.ansible.com/ansible/latest/user_guide/intro_inventory.html
 
-### Sample File in default location /etc/ansible/hosts
+### Sample File in Default Location /etc/ansible/hosts
   ```
       cat /etc/ansible/hosts
 
@@ -15,4 +15,9 @@
       [other]
       host5
   ```
+  
+  ### Host Info 
+  
+    - Default location >> /etc/ansible/hosts file 
+    - Using -i option >> ansible -i my_hosts
 
