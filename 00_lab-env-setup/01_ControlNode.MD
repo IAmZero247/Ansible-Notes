@@ -94,7 +94,17 @@
  
  ### Install Ansible
  
-   ```
-   d
-   ```
+   1. Install python and python-pip
+     ```sh
+       yum install python
+       yum install python-pip
+     ```
+   
+   1. Install ansible using pip check for version
+     ```sh
+     
+        pip install ansible
+        ansible --version
+     
+     ```
     
