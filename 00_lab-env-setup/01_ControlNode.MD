@@ -31,23 +31,23 @@
     
 - Edit /etc/hostname [Permanent]
     
-  ```
+   ```sh
         vi /etc/hostname
         ans-control-node
         
         sudo su -
-  ```
+   ```
 
  ### Create ansibleadmin user
  
    ```sh
-		useradd anseadmin
+		useradd ansadmin
 		passwd  ans12345
    ```
  
  ### Add user to sudoens file
    
-   ```sh
+     ```sh
       
 	   visudo 
 	   
@@ -55,11 +55,11 @@
 	   
 	   `ansadmin ALL=(ALL)	NOPASSWD:ALL `
    
-   ```
+     ```
    
  ### Generate ssh key
    
-     ```
+      ```
      
      	sudo su - ansadmin 
 	
@@ -75,24 +75,23 @@
 	
 	
 	
-     ```
+      ```
 ### Enable password based login   
 
 
-    ```
-    switch to root 
+     ```
+      switch to root 
     
-    sudo su - 
-    whoami
+      sudo su - 
+      whoami
     
-    vi /etc/ssh/sshd_config
+      vi /etc/ssh/sshd_config
     
-    now update for below 
+      now update for below:
+      PasswordAuthentication yes
     
-    PasswordAuthentication yes
-    
-    service sshd restart | reboot
-    ```
+      service sshd restart | reboot
+     ```
  
  ### Install Ansible
  
