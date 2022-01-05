@@ -2,9 +2,8 @@
 
   - https://docs.ansible.com/ansible/latest/user_guide/intro_inventory.html
 
-### Sample File in default location /etc/ansible/host
-    
-     ```
+### Sample File in default location /etc/ansible/hosts
+  ```
       cat /etc/ansible/hosts
 
       [rhel]
@@ -15,5 +14,5 @@
       host4
       [other]
       host5
-     ```
+  ```
 
