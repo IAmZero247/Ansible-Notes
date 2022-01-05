@@ -10,11 +10,11 @@
   
   1. `Examples of modules` 
       
-      -  ping
+      -  `ping >>`
        `ansible all -m ping`
-       -  command
+      -  command >>
        `ansible all -m command -a "uptime"`
-    -  Stat
-    -  yum
-    -  user
-    -  setup
+      -  stat >>
+      -  yum >>
+      -  user >>
+      -  setup >>
