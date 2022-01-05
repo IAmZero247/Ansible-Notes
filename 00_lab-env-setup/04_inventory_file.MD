@@ -4,7 +4,7 @@
 
 ### Sample File in default location /etc/ansible/host
     
-    ```
+     ```
     cat /etc/ansible/hosts
     
     [rhel]
@@ -15,5 +15,5 @@
     host4
     [other]
     host5
-    ```
+     ```
 
