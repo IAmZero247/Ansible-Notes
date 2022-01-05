@@ -8,10 +8,11 @@
   $ ansible [pattern] -m [module] -a "[module options]"
   ```
   
-  1. Examples of modules 
-    -  ping
+  1. `Examples of modules` 
+      
+      -  ping
        `ansible all -m ping`
-    -  command
+       -  command
        `ansible all -m command -a "uptime"`
     -  Stat
     -  yum
