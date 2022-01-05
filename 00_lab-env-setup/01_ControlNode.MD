@@ -109,4 +109,24 @@
       ansible --version
      
    ```
+   
+   3. Create new ansible.cfg in location /etc/ansible 
+
+     Copy content from `https://github.com/IAmZero247/Ansible-Notes/blob/main/00_lab-env-setup/ansible.cfg`
+     
+     ```
+     touch ansible.cfg 
+     vi ansible.cfg
+     
+     copy n paste 
+     
+     :wq
+     ```
     
+   4. Create new host file in location /etc/ansible
+   
+   ```
+   touch hosts
+   ```
+   
+   add
