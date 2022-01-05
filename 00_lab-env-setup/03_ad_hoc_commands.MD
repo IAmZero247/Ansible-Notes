@@ -40,7 +40,7 @@
            verify in managed nodes:
            cat /etc/passwd"
          ```
-      -  setup >>
+      -  setup >> gives entire info of managed nodes 
          ```
           ansible all -m setup
          ```
