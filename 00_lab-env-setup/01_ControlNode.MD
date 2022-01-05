@@ -1,4 +1,4 @@
-# Ansible Server 
+# Ansible Server - Control Node
 
  1. Setup EC2 instance
  2. Setup Hostname
