@@ -61,17 +61,17 @@
    
    ```sh
      
-     	sudo su - ansadmin 
+     sudo su - ansadmin 
 	
-	#generate sshkey with empty passphrase
+     #generate sshkey with empty passphrase
 	
-	ssh-keygen
-	ll -a
+     ssh-keygen
+     ll -a
 	
-	cd .ssh
+     cd .ssh
 	
-	>> 1. id_rsa
-	>> 2. id_rsa.pub
+       >> 1. id_rsa
+       >> 2. id_rsa.pub
 	
    ```
     
