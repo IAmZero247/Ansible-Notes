@@ -18,11 +18,13 @@
   
   ### Host Info 
   
-  1. Setup EC2 instance
-  2. Setup Hostname
-  3. Create ansibleadmin user
   
   1.  Default location >> /etc/ansible/hosts file 
   2.  Using -i option >> ansible -i my_hosts
-  3.  Define in ansible.cfg file 
+  3.  Define in ansible.cfg file location of hostfile
+      
+      - inventory = /etc/ansible/hosts
+     
+      - >> ansible all -m ping  -i /etc/ansadmin/hosts
+        
 
