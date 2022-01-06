@@ -16,7 +16,7 @@
       host5
   ```
   
-  ### Host Info 
+### Host Info 
   
   
   1.  Default location >> /etc/ansible/hosts file 
@@ -26,5 +26,13 @@
       - inventory = /etc/ansible/hosts
      
       - `>> ansible all -m ping  -i /etc/ansadmin/hosts`
-        
+
+
+### To list hosts
+
+  1. cat file
+  2. using ansible command
+     ```
+     ansible -i host --list-hosts 
+     ```
 
