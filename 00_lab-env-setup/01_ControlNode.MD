@@ -42,7 +42,8 @@
  
    ```sh
 		useradd ansadmin
-		passwd  ans12345
+		passwd  ansadmin
+		>> ansadmin123
    ```
  
  ### Add user to sudoens file
