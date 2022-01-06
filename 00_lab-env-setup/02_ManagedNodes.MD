@@ -12,7 +12,7 @@
  ### Setup EC2 
     
       
-- use redhat linux
+- use redhat linux | amazon linux | ubuntu
 - new security group -> ansible-sg
                 open port  22
                            80
@@ -40,7 +40,14 @@
  
    ```sh
 		useradd ansadmin
-		passwd  ans12345
+		passwd  ansadmin
+		>> ansadmin123
+		
+		#for ubunntu u need to create /home directory for user to 
+		useradd ansadmin ansadmin -d /home/ansadmin
+		passwd ansadmin
+		>> ansadmin123
+		
    ```
  
  ### Add user to sudoens file
