@@ -113,22 +113,22 @@
    
    3. Create new ansible.cfg in location /etc/ansible 
 
-     Copy content from *https://github.com/IAmZero247/Ansible-Notes/blob/main/00_lab-env-setup/ansible.cfg*
+       Copy content from *https://github.com/IAmZero247/Ansible-Notes/blob/main/00_lab-env-setup/ansible.cfg*
      
-     ```
-     mkdir /etc/ansible
-     cd /etc/ansible
-     
-     touch ansible.cfg 
-     vi ansible.cfg
-     
-     copy n paste 
-     
-     :wq
-     
-     Verify:
-     
-     ansible --version
+        ```
+	     mkdir /etc/ansible
+	     cd /etc/ansible
+
+	     touch ansible.cfg 
+	     vi ansible.cfg
+
+	     copy n paste 
+
+	     :wq
+
+	     Verify:
+
+	     ansible --version
 		[DEPRECATION WARNING]: Ansible will require Python 3.8 or newer on the controller
 		 starting with Ansible 2.12. Current version: 2.7.18 (default, Jun 10 2021,
 		00:11:02) [GCC 7.3.1 20180712 (Red Hat 7.3.1-13)]. This feature will be removed
@@ -143,7 +143,7 @@
 		python version = 2.7.18 (default, Jun 10 2021, 00:11:02) [GCC 7.3.1 20180712 (Red Hat 7.3.1-13)]
 		jinja version = 2.7.2
 		libyaml = True
-     ```
+         ```
     
    4. Create new host file in location /etc/ansible
    
