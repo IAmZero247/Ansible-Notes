@@ -129,20 +129,20 @@
 	     Verify:
 
 	     ansible --version
-		[DEPRECATION WARNING]: Ansible will require Python 3.8 or newer on the controller
-		 starting with Ansible 2.12. Current version: 2.7.18 (default, Jun 10 2021,
-		00:11:02) [GCC 7.3.1 20180712 (Red Hat 7.3.1-13)]. This feature will be removed
-		from ansible-core in version 2.12. Deprecation warnings can be disabled by
-		setting deprecation_warnings=False in ansible.cfg.
-		ansible [core 2.11.7]
-		config file = /etc/ansible/ansible.cfg
-		configured module search path = [u'/root/.ansible/plugins/modules', u'/usr/share/ansible/plugins/modules']
-		ansible python module location = /usr/lib/python2.7/site-packages/ansible
-		ansible collection location = /root/.ansible/collections:/usr/share/ansible/collections
-		executable location = /usr/bin/ansible
-		python version = 2.7.18 (default, Jun 10 2021, 00:11:02) [GCC 7.3.1 20180712 (Red Hat 7.3.1-13)]
-		jinja version = 2.7.2
-		libyaml = True
+			[DEPRECATION WARNING]: Ansible will require Python 3.8 or newer on the controller
+			 starting with Ansible 2.12. Current version: 2.7.18 (default, Jun 10 2021,
+			00:11:02) [GCC 7.3.1 20180712 (Red Hat 7.3.1-13)]. This feature will be removed
+			from ansible-core in version 2.12. Deprecation warnings can be disabled by
+			setting deprecation_warnings=False in ansible.cfg.
+			ansible [core 2.11.7]
+			config file = /etc/ansible/ansible.cfg
+			configured module search path = [u'/root/.ansible/plugins/modules', u'/usr/share/ansible/plugins/modules']
+			ansible python module location = /usr/lib/python2.7/site-packages/ansible
+			ansible collection location = /root/.ansible/collections:/usr/share/ansible/collections
+			executable location = /usr/bin/ansible
+			python version = 2.7.18 (default, Jun 10 2021, 00:11:02) [GCC 7.3.1 20180712 (Red Hat 7.3.1-13)]
+			jinja version = 2.7.2
+			libyaml = True
          ```
     
    4. Create new host file in location /etc/ansible
