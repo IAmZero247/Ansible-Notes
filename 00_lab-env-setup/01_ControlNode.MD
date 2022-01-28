@@ -116,6 +116,9 @@
      Copy content from `https://github.com/IAmZero247/Ansible-Notes/blob/main/00_lab-env-setup/ansible.cfg`
      
      ```
+     mkdir /etc/ansible
+     cd /etc/ansible
+     
      touch ansible.cfg 
      vi ansible.cfg
      
