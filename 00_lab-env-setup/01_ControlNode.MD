@@ -113,7 +113,7 @@
    
    3. Create new ansible.cfg in location /etc/ansible 
 
-     Copy content from `https://github.com/IAmZero247/Ansible-Notes/blob/main/00_lab-env-setup/ansible.cfg`
+     Copy content from *https://github.com/IAmZero247/Ansible-Notes/blob/main/00_lab-env-setup/ansible.cfg*
      
      ```
      mkdir /etc/ansible
